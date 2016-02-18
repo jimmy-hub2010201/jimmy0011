@@ -1,0 +1,14 @@
+ULtraEdit 22.10.12 最新方式破解
+軟體名稱】：IDM UltraEdit 22.10.12 
+【軟體語言】：中文
+【軟體分類】：Windows
+【官方網頁】：http://www.ultraedit.com/products/ultraedit.html
+
+
+從官網下載安裝後,執行uedit32.exe來開啟 C:\Program Files\IDM Computer Solutions\UltraEdit\ProtectionPlusDLL.dll
+
+修改以下位址內容存檔即可變成註冊版
+3EEE0 : 8B 0D B4 C0 56 10 32 C0-85 C9 74 0D 38 81 46 0B
+3EEE0 : -- -- -- -- -- -- B0 01 -- -- -- -- -- -- -- --
+3EEF0 : 00 00 74 05 E9 C7 A7 FE-FF C3 CC CC CC CC CC CC
+3EEF0 : -- -- -- -- B8 01 00 00 00 -- -- -- -- -- -- --
